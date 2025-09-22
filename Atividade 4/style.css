@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    color: #333;
+}
+
+.topo {
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+}
+
+.topo h1 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* espaço entre os links */
+    padding-left: 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+
+.conteudo {
+    display: flex;
+    margin: 20px;
+}
+
+.principal {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.destaque {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc; /* borda simples */
+    border-radius: 5px;
+}
+
+
+.lateral {
+    flex: 1;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lateral .noticia {
+    background: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+}
+
+
+.rodape {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
