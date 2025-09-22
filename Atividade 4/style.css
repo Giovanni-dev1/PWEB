@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    padding: 15px;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+    color: #222;
+}
+
+.topo {
+    background: black;
+    color: white;
+    padding: 10px 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+
+.topo h1 {
+    margin: 0px;
+    font-size: 28px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: navy;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.menu li a:hover {
+    background-color: #444;
+}
+
+.container {
+    display: flex;
+    margin-top: 25px;
+    gap: 17px;
+    flex-wrap: wrap;
+    border: 3px dashed #aaa;
+    padding: 10px;
+}
+
+.principal {
+    width: 68%;
+}
+
+.lateral {
+    width: 28%;
+    margin-left: 2%;
+}
+
+.card {
+    background-color: white;
+    padding: 18px;
+    border: 2px dotted #bbb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.destaque {
+    background-color: #fffbcc;
+    border: 3px double gold;
+}
+
+.card img {
+    width: 102%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 -5px 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+.rodape {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+    border-top: 4px solid red;
+    border-radius: 8px;
+}
