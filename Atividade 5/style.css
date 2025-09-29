@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa {
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa h2 {
+    font-size: 30px;
+    color: black;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .caixa { background-color: pink; }
+}
+
+@media (min-width: 1025px) and (max-width: 1080px) {
+    .caixa { background-color: red; }
+    .caixa h2 { color: white; }
+}
+
+@media (min-width: 1081px) and (max-width: 1366px) {
+    .caixa { background-color: purple; }
+    .caixa h2 { color: white; }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+    .caixa { background-color: yellow; }
+    .caixa h2 { color: black; }
+}
+
+@media (min-width: 1921px) {
+    .caixa { background-color: green; }
+    .caixa h2 { color: white; }
+}
+
+
+
+
+
+

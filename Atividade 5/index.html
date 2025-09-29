@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5 - Cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="caixa">
+        <h2>Cor atual</h2>
+    </div>
+
+    <script>
+        function mudarTexto() {
+            let largura = window.innerWidth;
+            let texto = document.querySelector(".caixa h2");
+
+            if (largura <= 1024) {
+                texto.textContent = "Rosa";
+            } else if (largura <= 1080) {
+                texto.textContent = "Vermelho";
+            } else if (largura <= 1366) {
+                texto.textContent = "Roxo";
+            } else if (largura <= 1920) {
+                texto.textContent = "Amarelo";
+            } else {
+                texto.textContent = "Verde";
+            }
+        }
+
+        mudarTexto();
+        window.addEventListener("resize", mudarTexto);
+    </script>
+
+</body>
+</html>
